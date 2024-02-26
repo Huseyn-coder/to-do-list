@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./assest.js/index.js" defer></script>
+    <link rel="stylesheet" >
+    <style>
+        body {
+    background-color: rgb(20, 182, 182);
+}
+#maindiv {
+    padding-left: auto;
+    padding-left: 20%;
+    margin-top: 50px;
+}
+
+#sec1 {
+padding: 30px;
+width: 70%;
+background-color: blueviolet;
+border: 4px solid rgb(2, 2, 99);
+border-radius: 15% 20%;
+}
+#task {
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: start;
+    font-size: 20px;
+}
+#add {
+    height: 30px;
+    border-radius: 20px;
+    width: 80px;
+    background-color: darkgreen;
+    color: aliceblue;
+    font-size: 20px;
+}
+#buttondiv {
+    text-align: end;
+}
+#numberdiv {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+#h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+#h2 h2 {
+    border: 4px solid  rgb(224, 4, 4);
+    display: inline;
+    background-color: chocolate;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#numberdiv {
+    display: inline;
+    padding: 2px;
+}
+#tasks div {
+    display: block;
+    justify-content: space-around;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: aqua;
+
+}
+#tasks button {
+    font-size: 10px;
+    border-radius: 25%;
+    text-decoration: none !important;
+}
+#buttondiv button {
+    border: 2px solid rgb(2, 56, 9);
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+   color: rgb(95, 255, 247);
+   background-color: rgba(167, 211, 10, 0.37);
+}
+#tasks input {
+    margin-right: 10px;
+}
+    </style>
+</head>
+<body>
+    <div id="maindiv">
+    <section id="sec1">
+        <div id="h2">
+            <h2>TODOS</h2>
+        </div>
+    <div>
+        <input placeholder="What Needs To Be Done" id="task" />
+        <button id="add">Add</button>
+        <div id="tasks"></div>
+        <div id="numberdiv"><span id="number">0</span> Items Left</div>
+    </div>
+    <div id="buttondiv">
+        <button id="all">All</button>
+        <button id="completed">Completed</button>
+        <button id="active">Active</button>
+        <button id="clear">Clear completed</button>
+    </div>
+</div>
+</section>
+</body>
+</html>
